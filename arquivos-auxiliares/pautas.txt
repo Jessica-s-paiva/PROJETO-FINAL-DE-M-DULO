@@ -1,0 +1,11 @@
+- tema
+- funções da aplicação
+- 6 páginas:
+    Home
+    Detalhes do serviço
+    lista de espera
+    contatos
+    login
+    recuperação de senha
+- paleta de cores
+- fonte

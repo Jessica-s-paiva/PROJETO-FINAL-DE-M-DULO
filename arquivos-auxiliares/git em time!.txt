@@ -1,0 +1,13 @@
+Para criar branches:
+    1 - git clone no repositório
+    2 - git checkout -b nomeDaBranch
+        fazer commit a cada pequena alteração
+    3 - clicar em compare & pull request
+        clicar em create pull request
+
+    na main:       
+    juntar as branches em pequenos micro-projetos
+        1 - git pull
+        2 - git merge origin/nomeDaBranch
+
+    Accept both change para salvar as alterações
