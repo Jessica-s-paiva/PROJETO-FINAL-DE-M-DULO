@@ -1,11 +1,17 @@
 - tema
 - funções da aplicação
 - 6 páginas:
-    Home
-    Detalhes do serviço
-    lista de espera
-    contatos
-    login
-    recuperação de senha
+    Home -> Nahla
+    Detalhes do serviço -> Jessica
+    Cadastro lista de espera -> Sabrina
+    contatos -> Thaysa
+    login -> Magali
+    recuperação de senha -> Magali
 - paleta de cores
 - fonte
+
+Ideia 1 - Magali:
+aplicativo de curriculos dinÂmica e direta para procura de vagas ou funcionarios
+
+Ideia 2 - Sabrina:
+aplicativo de templates |||
