@@ -1,37 +1,19 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
 body{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
+    background-color: #DEDAFD;
+    text-align: center;
+    color: #3B284C;
+    font-family: 'Poppins', sans-serif;
 }
 
-section .card .imagem{
-    height: 140px;
-    width: 140px;
-    padding: 3px;
-    background-color: royalblue;
-    border-radius: 50%;
-}
-
-section .card .imagem img{
-    height: 100%;
-    width: 100%;
+img{
+    width: 200px;
+    height: 200px;
     object-fit: cover;
-    border: 3px solid #fff;
     border-radius: 50%;
+    border: 5px solid #3B284C;
+    
 }
 
-.card{
-    border-radius: 20px;
-    background-color: #fff;
+#pai{
+    padding: 40px 0;
 }
