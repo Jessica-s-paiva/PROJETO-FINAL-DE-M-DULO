@@ -10,10 +10,9 @@ body, html {
 }
 
 :root{
-    --Primaria: #85d4ff;
-    --Secundaria: #78beff;
+    --Primary: #3b284c;
+    --Secondary: #85d4ff;
+    --Details: #78beff;
     --One: #dedafd;
-    --Two: #56ddec;
-    --Three: #3b284c;
-
+    --Two: #56ddec;  
 }
