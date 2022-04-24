@@ -1,4 +1,15 @@
 #banner{
     width: 100%;
     height: 250px;
+    background-color: darkblue;
+    color: white;
+}
+.conteudo{
+    width: 100%;
+    height: 250px;
+    background-color: whitesmoke;
+}
+.img{
+    width: 250px;
+    height: 200px;
 }
