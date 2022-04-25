@@ -10,8 +10,9 @@ body, html {
 }
 
 :root{
-    --primary: #85D4FF;
-    --secondary: #DEDAFD;
-    --text: #3B284C;
-    --buttons: #56DDEC;
+    --Primary: #3b284c;
+    --Secondary: #85d4ff;
+    --Details: #78beff;
+    --One: #dedafd;
+    --Two: #56ddec;
 }
