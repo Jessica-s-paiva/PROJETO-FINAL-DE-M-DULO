@@ -1,0 +1,21 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text)
+}
+
+.inicial {
+    background-color: var(--primary);
+}
+
+.chamada {
+    background-color: var(--secondary);
+}
+
+.botoes {
+    background-color: var(--buttons);
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}

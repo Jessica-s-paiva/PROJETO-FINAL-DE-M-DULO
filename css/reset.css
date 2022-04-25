@@ -10,5 +10,8 @@ body, html {
 }
 
 :root{
-    --Primaria: #400101;
+    --primary: #85D4FF;
+    --secondary: #DEDAFD;
+    --text: #3B284C;
+    --buttons: #56DDEC;
 }
