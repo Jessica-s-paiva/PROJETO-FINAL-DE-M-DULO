@@ -1,0 +1,26 @@
+.card-body{
+    border-radius: 10px;    
+    color: rgb(59, 40, 76);
+    background-color: rgb(222, 218, 253);
+
+}
+.h1{
+    color: rgb(59, 40, 76);
+    background-color:rgb(222, 218, 253) ; 
+    text-align: center;
+    border: none !important;
+}
+.h6{
+    
+    color: rgb(59, 40, 76);
+    background-color:rgb(222, 218, 253) ; 
+    text-align: center;
+    border: none !important;
+
+}
+body{
+background-color: rgb(133, 212, 255) !important ;
+}
+form{
+    background-color:rgb(222, 218, 253) !important;
+}
