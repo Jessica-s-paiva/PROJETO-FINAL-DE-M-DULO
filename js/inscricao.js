@@ -22,7 +22,10 @@ $(document).ready(function(){
                 required:true
             },
             inputCEP:{
-                required:true,
+                required:true
+            },
+            num:{
+                required: true
             }
         },
         messages:{
@@ -48,6 +51,9 @@ $(document).ready(function(){
             },
             inputCEP:{
                 required:"Este campo é obrigatório.",
+            },
+            num:{
+                required:"Este campo é obrigatório.",  
             }
         }
     })
