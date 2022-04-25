@@ -6,17 +6,33 @@
     padding-top: 100px;
     color: var(--Primary);
     font-family: 'Poppins', sans-serif;
-    width: 100%;
-    background-color: var(--One);
+    /* background-color: var(--One); */
 }
 .navegacao{
     background-color: var(--Primary);
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     opacity: 0.9;
+
+}
+.card1{
+    background-color: var(--Primary);
+    border-radius: 10px;
+}
+.cards{
+    margin: 20px;
+    padding: 10px;
+}
+.template{
+    padding: 20px;
 }
 .plan{
     background-color: var(--Secondary);
+    margin: 20px;
+    width: 80px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
 }
 .planos{
     background-color: var(--One);
@@ -32,9 +48,6 @@ h3{
 p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-}
-.cards{
-    margin: 20px;
 }
 a:link {
     color: white;
