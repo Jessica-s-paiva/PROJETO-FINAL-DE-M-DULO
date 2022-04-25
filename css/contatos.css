@@ -1,5 +1,5 @@
 body{
-    background-color: #DEDAFD;
+    background-color: #ffff;
     text-align: center;
     color: #3B284C;
     font-family: 'Poppins', sans-serif;
@@ -59,6 +59,13 @@ h1::after{
     position: absolute;
     display: inline-block;
     color: #56DDEC;
+    margin-top: 40px;
     
+}
+
+.carousel-item{
+    background-color: #DEDAFD;
+    border-radius: 10px;
+    padding: 30px;
 }
 
