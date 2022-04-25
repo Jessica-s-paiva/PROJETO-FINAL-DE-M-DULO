@@ -1,24 +1,12 @@
-$("#cor1").click((event) => {
+$('#btn').on('click', (event) => {
     event.preventDefault();
-    $(".banner").css("background", "#FFF900");
+    const corBanner = new CoresView();
+    corBanner.mudarCorBanner();
 });
 
-$("#cor2").click((event) => {
+$('#btn1').on('click', (event) => {
     event.preventDefault();
-    $(".banner").css("background", "#8EFF00");
+    const corMenu = new CoresView();
+    corMenu.mudarCorMenu();
 });
 
-$("#cor3").click((event) => {
-    event.preventDefault();
-    $(".banner").css("background", "#F186B4");
-});
-
-$("#cor4").click((event) => {
-    event.preventDefault();
-    $(".banner").css("background", "#86C0F1");
-});
-
-$("#cor5").click((event) => {
-    event.preventDefault();
-    $(".banner").css("background", "#FFA500");
-});
