@@ -1,10 +1,10 @@
-$('#btn').on('click', (event) => {
+$('#btn1').on('click', (event) => {
     event.preventDefault();
     const corBanner = new CoresView();
     corBanner.mudarCorBanner();
 });
 
-$('#btn1').on('click', (event) => {
+$('#btn').on('click', (event) => {
     event.preventDefault();
     const corMenu = new CoresView();
     corMenu.mudarCorMenu();

@@ -2,8 +2,39 @@
     width: 210px;
     height: 250px;
 }
+.servico{
+    padding-top: 100px;
+    color: var(--Primary);
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    background-color: var(--One);
+}
 .navegacao{
     background-color: var(--Primary);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    opacity: 0.9;
+}
+.plan{
+    background-color: var(--Secondary);
+}
+.planos{
+    background-color: var(--One);
+}
+h1{
+    font-weight: 800;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.cards{
+    margin: 20px;
 }
 a:link {
     color: white;
