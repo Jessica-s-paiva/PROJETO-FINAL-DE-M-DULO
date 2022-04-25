@@ -2,13 +2,15 @@
     border-radius: 10px;    
     color: rgb(59, 40, 76);
     background-color: rgb(222, 218, 253);
+    
 
 }
 .h1{
     color: rgb(59, 40, 76);
-    background-color:rgb(222, 218, 253) ; 
+    background-color:rgb(160, 221, 255) ; 
     text-align: center;
     border: none !important;
+    font-family: 'Poppins', sans-serif;
 }
 
 .alinharCentro{
@@ -18,8 +20,8 @@
     margin-top: 50px;
 }
 body{
-    background-color: rgb(133, 212, 255) !important ;
+    background-color: rgb(222, 218, 253) !important ;
 }
 form{
-    background-color:rgb(222, 218, 253) !important;
+    background-color:rgb(160, 221, 255) !important;
 }
