@@ -4,24 +4,31 @@
 }
 .servico{
     padding-top: 100px;
-    color: var(--Primary);
+    color: black;
     font-family: 'Poppins', sans-serif;
     /* background-color: var(--One); */
 }
 .navegacao{
-    background-color: var(--Primary);
+    background-color: var(--Details);
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    opacity: 0.9;
-
+    opacity: 0.8;
+    height: 120px;
+    box-shadow: 2px 3px 18px #888888;
 }
 .card1{
-    background-color: var(--Primary);
+    background-color: var(--One);
     border-radius: 10px;
+    box-shadow: 0px 3px 10px #888888;
+    margin: 10px;
 }
 .cards{
     margin: 20px;
     padding: 10px;
+    height: 350px;
+}
+.img{
+    width: 80px;
+    height: 130px;
 }
 .template{
     padding: 20px;
@@ -29,7 +36,7 @@
 .plan{
     background-color: var(--Secondary);
     margin: 20px;
-    width: 80px;
+    width: 60px;
     height: 300px;
     border-radius: 10px;
     padding: 10px;
@@ -38,19 +45,30 @@
     background-color: var(--One);
 }
 h1{
-    font-weight: 800;
-    font-size: 50px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 2px var(--Primary);
+    padding: 40px;
+    color: #5E3284;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
+    color: var(--Two);
+    font-weight: 900;
+    text-shadow: 0.7px 0.7px var(--Primary);
+    padding-bottom: 20px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    font-weight: 800;
 }
 p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+ 
 }
 a:link {
-    color: white;
+    color: var(--Primary);
     text-decoration: none;
  }
  
@@ -61,7 +79,7 @@ a:link {
  
  /* mouse hover */
  a:hover {
-     color: #56ddec;
+     color:var(--Primary);
  }
  
  /* link selecionado */
