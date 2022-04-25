@@ -1,4 +1,6 @@
-function validaEmail(){
+
+
+function recuperarEmail(){
     let email = $('#email').val();
 
     let emailRegex = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
@@ -6,6 +8,8 @@ function validaEmail(){
        inserirAlerta('Email inválido', 'danger');
     }else if(email == ""){
         inserirAlerta('Insira um email válido', 'info');
+    }else{
+        inserirAlerta('Verifique a nova senha na caixa de E-mail', 'success');
     }
 }
 
