@@ -10,8 +10,15 @@
     text-align: center;
     border: none !important;
 }
+
+.alinharCentro{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
 body{
-background-color: rgb(133, 212, 255) !important ;
+    background-color: rgb(133, 212, 255) !important ;
 }
 form{
     background-color:rgb(222, 218, 253) !important;
