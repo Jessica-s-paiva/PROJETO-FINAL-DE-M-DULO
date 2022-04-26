@@ -43,3 +43,23 @@ img {
     margin: 0;
     padding: 0;
 }
+
+a:link {
+    color: var(--Primary);
+    text-decoration: none;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+     color: var(--One);
+ }
+ 
+ /* mouse hover */
+ a:hover {
+     color:var(--Primary);
+ }
+ 
+ /* link selecionado */
+ a:active {
+     color: var(--Two);
+ }

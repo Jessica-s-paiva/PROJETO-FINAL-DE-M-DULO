@@ -47,3 +47,23 @@ form{
     height: 120px;
     box-shadow: 2px 3px 15px #888888;
 }
+
+a:link {
+    color: var(--Primary);
+    text-decoration: none;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+     color: var(--One);
+ }
+ 
+ /* mouse hover */
+ a:hover {
+     color:var(--Primary);
+ }
+ 
+ /* link selecionado */
+ a:active {
+     color: var(--Two);
+ }
