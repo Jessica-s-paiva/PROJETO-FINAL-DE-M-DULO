@@ -1,5 +1,4 @@
 $(document).ready(function(){
-<<<<<<< HEAD
     $('#myForm').validate({
         rules:{
             nome:{
@@ -17,7 +16,7 @@ $(document).ready(function(){
             },
             senha2:{
                 required:true,
-                equalTo: "#inputPassword5"
+                equalTo: "#senha1"
             },
             inputRG:{
                 required:true
@@ -58,7 +57,6 @@ $(document).ready(function(){
             }
         }
     })
-=======
     function limpaFormCep() {
         $("#cidade").val("");
         $("#estado").val("");
@@ -100,5 +98,4 @@ $(document).ready(function(){
         }
     });
 
->>>>>>> origin/criando-a-base-do-cadastro-com-bootstrap
 });
