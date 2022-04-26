@@ -1,6 +1,7 @@
 html, body {
     font-family: 'Poppins', sans-serif;
-    color: var(--text)
+    color: var(--text);
+    background-color: var(--One);
 }
 
 .logo{
@@ -21,9 +22,11 @@ html, body {
 
 
 .chamada {
-    background-color: var(--One);
     margin-top: 100px;
+    background-image: url(../image/imagem-css-background.jpg);
+    color: var(--Details);
 }
+
 
 .botoes {
     background-color: var(--Two);
