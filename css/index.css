@@ -47,10 +47,7 @@ img {
     padding: 0;
 }
 
-a:link {
-    color: var(--Primary);
-    text-decoration: none;
- }
+
  
  /* link que foi visitado */
  a:visited {
@@ -65,4 +62,8 @@ a:link {
  /* link selecionado */
  a:active {
      color: var(--Two);
+ }
+
+ a{
+     color: white;
  }
