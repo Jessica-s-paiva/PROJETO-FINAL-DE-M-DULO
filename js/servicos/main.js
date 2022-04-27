@@ -1,12 +1,17 @@
-$('#btn1').on('click', (event) => {
+$("#btn1").click((event)=>{
     event.preventDefault();
-    const corBanner = new CoresView();
-    corBanner.mudarCorBanner();
-});
+    const menu = new CoresView();
+    menu.mudarCorMenu();
+})
 
-$('#btn').on('click', (event) => {
+$("#btn2").click((event)=>{
     event.preventDefault();
-    const corMenu = new CoresView();
-    corMenu.mudarCorMenu();
-});
+    const banner = new CoresView();
+    banner.mudarCorBanner();
+})
 
+$("#btn3").click((event)=>{
+    event.preventDefault();
+    const letras = new CoresView();
+    letras.mudarTipografia();
+})
