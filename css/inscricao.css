@@ -1,4 +1,4 @@
-main {
+.reset {
     box-sizing: content-box;
     margin: 0;
     padding: 0;
@@ -40,9 +40,12 @@ img {
     justify-content: center;
 }
 .alinhar {
+    width: 95%;
+    display: flex;
     margin-top: 150px;
     align-items: center;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    justify-content: center;
 }
 .logo{
     width: 180px;
@@ -60,6 +63,7 @@ img {
     box-shadow: 2px 3px 15px #888888;
 }
 .rodape{
+    width: 100%;
     background-color: var(--Details);
     font-family: 'Montserrat', sans-serif;
     opacity: 0.8;
@@ -71,17 +75,27 @@ a:link {
     text-decoration: none;
  }
  
- /* link que foi visitado */
+
  a:visited {
      color: var(--One);
  }
- 
- /* mouse hover */
+
  a:hover {
      color:var(--Primary);
  }
  
- /* link selecionado */
  a:active {
      color: var(--Two);
  }
+ .main {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .section{
+     margin-top: 160px;
+     margin-bottom: 100px;
+ }
+
+ 

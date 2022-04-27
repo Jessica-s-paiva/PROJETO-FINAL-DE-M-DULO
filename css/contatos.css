@@ -90,22 +90,22 @@ h1{
     --One: #dedafd;
     --Two: #56ddec;
 }
-a:link {
+.navlinks:link {
     color: var(--Primary);
     text-decoration: none;
  }
  
  /* link que foi visitado */
- a:visited {
+ .navlinks:visited {
      color: var(--One);
  }
  
  /* mouse hover */
- a:hover {
+ .navlinks:hover {
      color:var(--Primary);
  }
  
  /* link selecionado */
- a:active {
+ .navlinks:active {
      color: var(--Two);
  }
