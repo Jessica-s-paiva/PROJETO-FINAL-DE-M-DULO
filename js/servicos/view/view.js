@@ -52,11 +52,11 @@ class CoresView{
         switch (output) {
             case "cursiva":
                 $("h2").css("font-family", "Dancing Script, cursive");
-                $("p").css("font-family", "Dancing Script, cursive");
+                $(".parag").css("font-family", "Dancing Script, cursive");
                 break;
             case "montserrat":
                 $("h2").css("font-family", "Montserrat, sans-serif");
-                $("p").css("font-family", "Montserrat, sans-serif");
+                $(".parag").css("font-family", "Montserrat, sans-serif");
                 break;
             default:
                 break;
